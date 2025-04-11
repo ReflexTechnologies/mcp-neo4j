@@ -1,10 +1,10 @@
 [project]
-name = "mcp-neo4j-cypher"
+name = "mcp-neo4j-cypher-read-only"
 version = "0.1.2"
-description = "A simple Neo4j MCP server"
+description = "A simple Neo4j MCP server with read-only tools"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["mcp>=1.6.0", "neo4j>=5.26.0"]
+dependencies = ["mcp>=1.6.0", "neo4j>=5.26.0", "boto3>=1.28.0"]
 
 [build-system]
 requires = ["hatchling"]
